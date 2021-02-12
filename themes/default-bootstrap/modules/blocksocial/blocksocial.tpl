@@ -82,6 +82,6 @@
         	</li>
         {/if}
 	</ul>
-    <h4>{l s='Follow us' mod='blocksocial'}</h4>
+    <!--<h4>{l s='Follow us' mod='blocksocial'}</h4>-->
 </section>
 <div class="clearfix"></div>

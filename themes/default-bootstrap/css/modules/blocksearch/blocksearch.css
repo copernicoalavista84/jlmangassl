@@ -2,9 +2,14 @@
   padding-top: 50px; }
   #search_block_top #searchbox {
     float: left;
-    width: 100%; }
+    width: 100% !important; }
+  
+#search_query_top {
+    border: 2px solid #f44051;
+}
+
   #search_block_top .btn.button-search {
-    background: #333;
+    background: #f44051;
     display: block;
     position: absolute;
     top: 0;
@@ -64,3 +69,9 @@ form#searchbox {
       margin-right: 0; }
 
 /*# sourceMappingURL=blocksearch.css.map */
+
+#search_query_top::placeholder { 
+    color: red; 
+    font-family: 'Carter One', cursive;
+    font-size: 18px;
+}

@@ -1,8 +1,14 @@
 <?php
-define('_DB_SERVER_', 'db708184382.db.1and1.com');
+//define('_DB_SERVER_', 'db708184382.db.1and1.com');
+define('_DB_SERVER_', 'localhost');
 define('_DB_NAME_', 'db708184382');
-define('_DB_USER_', 'dbo708184382');
-define('_DB_PASSWD_', 'fer607372785');
+//define('_DB_USER_', 'dbo708184382');
+//define('_DB_PASSWD_', 'fer607372785');
+
+define('_DB_USER_', 'root');
+define('_DB_PASSWD_', 'root');
+
+
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');

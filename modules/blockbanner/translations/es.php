@@ -2,6 +2,7 @@
 
 global $_MODULE;
 $_MODULE = array();
+
 $_MODULE['<{blockbanner}prestashop>blockbanner_4b92fcfe6f0ec26909935aa960b7b81f'] = 'Bloque de Banner';
 $_MODULE['<{blockbanner}prestashop>blockbanner_9ec3d0f07db2d25a37ec4b7a21c788f8'] = 'Muestra un banner en la parte superior de la tienda.';
 $_MODULE['<{blockbanner}prestashop>blockbanner_df7859ac16e724c9b1fba0a364503d72'] = 'Se ha producido un error durante la subida del archivo.';
@@ -15,3 +16,6 @@ $_MODULE['<{blockbanner}prestashop>blockbanner_ff09729bee8a82c374f6b61e14a4af76'
 $_MODULE['<{blockbanner}prestashop>blockbanner_112f6f9a1026d85f440e5ca68d8e2ec5'] = 'Por favor, introduce una descripción breve pero significativa para el banner.';
 $_MODULE['<{blockbanner}prestashop>blockbanner_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockbanner}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Selecciona un archivo';
+
+
+return $_MODULE;
